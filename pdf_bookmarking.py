@@ -18,15 +18,9 @@ class MyDictionary(dict):
 
     Methods
     -----------
-    add : adds a add method to My_dictionary class so that dictionaries can be added by just saying My_dictionary.add(key,value)
+    add : adds an add method to My_dictionary class so that dictionaries can be added by just saying My_dictionary.add(key,value)
 
     """
-
-    # __init__ function
-    # def __init__(self):
-    #     self = dict()
-
-    # Function to add key:value
     def add(self, key, value):
         """
 
@@ -152,7 +146,7 @@ def bookmark(srcff, book):
         pdf = "page%s.pdf" % num
         check = (
             num in book.values()
-        )  # change keys to values if importing dict from bookmarkTitleAndPage.py
+        ) 
 
         if num and check:
             title = key_list[val_list.index(num)]
@@ -199,22 +193,18 @@ The format of the text file should be as shown in the example
     The part before @ is the title and the part after @ is the page number. You cannot use characters after the @ symbol.
 
     """
-    # source = input("Paste the source file location here(include.pdf)-->")
-    source = r"C:\Users\KIIT\OneDrive\Desktop\complete_apcm\assignment_answers.pdf"  # Paste the pdf file absolute path(include.pdf too!) here within the inverted commas.
-    # text_file=input("Paste the text file location here(include.txt)------>")
-    # book=title_page(text_file)
-    book = title_page(
-        r"C:\Users\KIIT\OneDrive\Desktop\complete_apcm\question_bank.txt"
-    )  # Paste the text file absolute path here within the inverted commas.
-    destination = "C:\\Users\\KIIT\\pdfJatra"
+    source = input("Paste the source pdf file location here(include.pdf)-->")
+    text_file=input("Paste the text file location here(include.txt)------>")
+    book=title_page(text_file)
+    destination = "C:\\Users\\User_name\\pdfJatra" # Paste path of where you want to create the final pdf file
     if len(os.listdir(destination)) > 0:
         raise Exception(
             "There are files in destination folder please move or delete files in >>"
             + destination
             + "<< this location and run the program again"
         )
-    # print(book)
-    print("Hoping that you did not use decimal numbers to denote page number.")
+    print(book)
+    print("Hoping that you used only positive integers to denote page number.")
     filesplitter(source, destination)
     final_file = bookmark(destination, book)
     os.chdir(destination)

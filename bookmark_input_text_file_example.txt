@@ -1,0 +1,32 @@
+Q 1 )What is the meaning of discretization in the FEM?@4
+Q 2 )Define plane stress and plain strain problems.@5
+Q 3 Q 4) What are one-dimensional elements?What do you mean by Constant Strain Triangle (CST)?@6
+Q 5 Q 6)  What are the three types of loading considered in structural mechanics problem?What do you mean by domain residual?@7
+Q 7 )What is the meaning of shape function?@8
+Q 8 )What are the various types of elements and node in FEM?@9
+Q 9 )Discuss the advantages and disadvantages of FEM over conventional method.@10
+Q 10) What is local, global, and natural co-ordinates?@11
+Q 11) Consider a four-element mesh for a plane wall of thickness 2L, as shown in Figure below.@12
+Q 12) Consider a vertically hanging rod (subjected to self-weight) of length L.Determine the stress and strain by taking two-element discretization as a finite element.@14
+Q 13) Develop the shape functions for four noded quadrilateral element in natural co-ordinates.@16
+Q 14) Imagine a uniform rod subjected to a uniform axial load  q as illustrated in Figure below. Solve the following by making use of Weighted Residual Method.@17
+Q 15) Determine the shape function for a two noded truss elements using local coordinate system with range -1 to 1. Also plot the variation of shape function.@20
+Q 16) Outline the importance of Lagrange polynomial function.@21
+Q 17 Q 25 Q 26 Q 27) Why polynomial type of interpolation functions is mostly used in FEM? What are the advantages of natural co-ordinates? What are the properties of shape function? Explain the convergence requirements of polynomial shape functions.@22
+Q 18 a)  Explain Application of FEM in heat transfer problem@23
+Q 19) Design the structure of Pascal triangle for polynomial function.@25
+Q 20) Explain the principle of weighted residual method.@26
+Q 21) Distinguish between a bar element and a truss element.@27
+Q 22) What are the importance and characteristics of stiffness matrix for finite element analysis?@29
+Q 23) Distinguish between lower and higher order elements.@30
+Q 24) What is meant by boundary condition?@32
+Q 28) What are advantages and applications FEM.@36
+Q 29) Construct the expression of weak (variational) form of weighted Residual Method.@37
+Q 30) Discuss the various points to be considered while discretizing a structure for finite element analysis.@39
+Q 37) Outline the commercially available finite element analysis packages.@40
+Q 34) Formulate the shape functions for three noded triangular element in global co-ordinates.@41
+Q 32) Choosing length, height, and temperature factors, construct shape functions for two-dimensional four-noded rectangular element.@43
+Q 35) Determine the shape function for a three noded truss element with natural coordinate system shown in Figure below.@45
+Q 31) Assume a simply supported beam under a uniform distributed load q as shown in Figure below. Solve the following by taking Weighted Residual Method.@48
+Q 33) Figure below illustrates the three degree of freedom spring-mass system supporting three equal weights W suspended@51
+Q 36) Elaborate the structure of a finite element analysis program.@53
